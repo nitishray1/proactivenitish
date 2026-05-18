@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Nitish Ray — Wellness Coach for Busy People | Proactive Nitish</title>
+  <meta name="description" content="Nitish Ray is a wellness coach in Sydney helping busy working people build simple, lasting habits around sleep, food, movement, energy, and stress — without overhauling their life." />
+  <meta name="keywords" content="wellness coach Sydney, habit coach, busy people wellness, sleep habits, nutrition habits, stress management, Nitish Ray, Proactive Nitish, wellness coaching Australia" />
+  <meta name="author" content="Nitish Ray" />
+  <link rel="canonical" href="https://nitishray.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nitishray.com/" />
+  <meta property="og:title" content="Nitish Ray — Wellness Coach for Busy People" />
+  <meta property="og:description" content="Simple, realistic wellness coaching for people who work hard, feel drained, and want to feel better without a complete life overhaul." />
+  <meta property="og:image" content="https://nitishray.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nitish Ray — Wellness Coach for Busy People" />
+  <meta name="twitter:description" content="Simple, realistic wellness coaching for busy working people in Sydney and beyond." />
+
+  <!-- Structured Data: Person + WellnessCoach -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://nitishray.com/#nitishray",
+        "name": "Nitish Ray",
+        "url": "https://nitishray.com",
+        "image": "https://nitishray.com/nitish-ray.jpg",
+        "description": "Wellness coach helping busy working people build simple, lasting habits around sleep, food, movement, energy, and stress.",
+        "jobTitle": "Wellness Coach",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Proactive Nitish"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sydney",
+          "addressCountry": "AU"
+        },
+        "sameAs": [
+          "https://www.instagram.com/proactivenitish"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://nitishray.com/#coaching",
+        "name": "Wellness Coaching",
+        "provider": { "@id": "https://nitishray.com/#nitishray" },
+        "description": "Private wellness coaching sessions covering habits, sleep, nutrition basics, movement, energy, stress, and hydration. Tailored for busy working people.",
+        "areaServed": "Australia",
+        "serviceType": "Wellness Coaching",
+        "offers": {
+          "@type": "Offer",
+          "description": "Private 4-week, 8-week, and 12-week wellness coaching programs",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://nitishray.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Nitish Ray's coaching for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nitish works with busy working people — those with full-time jobs, long commutes, and limited time — who want to feel better without overhauling their entire life. If you're tired after work and struggling to build consistent habits, this coaching is for you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does wellness coaching with Nitish Ray cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sessions cover practical wellness fundamentals: sleep habits, basic nutrition, daily movement, energy management, stress, and hydration. The focus is always on small, consistent actions rather than dramatic overhauls."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this medical advice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Nitish Ray offers general wellness coaching and education — not medical advice, diagnosis, or treatment. For medical concerns, please consult a qualified GP or health professional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the coaching work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It starts with a short intake conversation to understand your current situation, goals, and constraints. From there, Nitish builds a simple, personalised wellness focus — with 4-week, 8-week, or 12-week follow-up check-ins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is Nitish Ray based?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nitish is based in Sydney, Australia. Coaching is available in-person in Sydney and online for people elsewhere."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── TOKENS ───────────────────────────────────────────────── */
+    :root {
+      --bg:        #F7F3EE;
+      --bg-card:   #EDE8DF;
+      --bg-dark:   #1E3A2F;
+      --primary:   #1E3A2F;
+      --accent:    #B86B4A;
+      --sage:      #6B8F71;
+      --text:      #1C1917;
+      --text-muted:#7A726C;
+      --text-light:#F7F3EE;
+      --border:    #D8D1C7;
+
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Plus Jakarta Sans', sans-serif;
+
+      --radius:    4px;
+      --max-w:     1120px;
+      --section:   96px;
+    }
+
+    /* ─── RESET ─────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-weight: 400;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── UTILITY ────────────────────────────────────────────────── */
+    .container {
+      width: 100%;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+    .tag {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ─── NAV ────────────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 20px 0;
+      background: rgba(247, 243, 238, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s, padding 0.3s;
+    }
+    nav.scrolled {
+      border-color: var(--border);
+      padding: 14px 0;
+    }
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--primary);
+      letter-spacing: 0.01em;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--primary); }
+    .nav-cta {
+      background: var(--primary);
+      color: var(--text-light) !important;
+      padding: 10px 24px;
+      border-radius: var(--radius);
+      letter-spacing: 0.06em !important;
+      transition: background 0.2s !important;
+    }
+    .nav-cta:hover { background: var(--accent) !important; color: #fff !important; }
+
+    /* Mobile nav toggle */
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .nav-toggle span {
+      width: 24px; height: 2px;
+      background: var(--primary);
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* ─── HERO ───────────────────────────────────────────────────── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 80% 30%, rgba(107,143,113,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 20% 80%, rgba(184,107,74,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .hero-eyebrow-line {
+      width: 40px; height: 1px;
+      background: var(--accent);
+    }
+    .hero-eyebrow-text {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .hero-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5vw, 4.2rem);
+      font-weight: 400;
+      line-height: 1.12;
+      color: var(--primary);
+      letter-spacing: -0.01em;
+      margin-bottom: 24px;
+    }
+    .hero-headline em {
+      font-style: italic;
+      color: var(--accent);
+    }
+    .hero-sub {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      max-width: 460px;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: background 0.2s, transform 0.15s;
+      display: inline-block;
+    }
+    .btn-primary:hover {
+      background: var(--accent);
+      transform: translateY(-1px);
+    }
+    .btn-ghost {
+      border: 1.5px solid var(--border);
+      color: var(--text);
+      padding: 14px 32px;
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: border-color 0.2s, color 0.2s;
+      display: inline-block;
+    }
+    .btn-ghost:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+    .hero-visual {
+      position: relative;
+    }
+    .hero-card-stack {
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .hero-card-main {
+      background: var(--primary);
+      border-radius: 12px;
+      padding: 48px 40px;
+      color: var(--text-light);
+      position: relative;
+      z-index: 2;
+    }
+    .hero-card-main .card-tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    .hero-card-main .card-quote {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      line-height: 1.3;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 28px;
+    }
+    .hero-card-main .card-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .card-author-dot {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 600; font-size: 0.75rem;
+    }
+    .card-author-name {
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+    .card-author-role {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.5);
+    }
+    .hero-card-back {
+      position: absolute;
+      top: -12px; right: -16px;
+      width: 100%; height: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      z-index: 1;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .stat-item {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      flex: 1;
+    }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── MARQUEE ─────────────────────────────────────────────────── */
+    .marquee-wrap {
+      background: var(--primary);
+      padding: 18px 0;
+      overflow: hidden;
+    }
+    .marquee-track {
+      display: flex;
+      gap: 0;
+      animation: marquee 28s linear infinite;
+      white-space: nowrap;
+    }
+    .marquee-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      padding: 0 32px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+    }
+    .marquee-dot {
+      width: 4px; height: 4px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+
+    /* ─── SECTIONS ───────────────────────────────────────────────── */
+    section { padding: var(--section) 0; }
+
+    .section-header {
+      max-width: 600px;
+    }
+    .section-header h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.18;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+    .section-header p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    /* ─── ABOUT ──────────────────────────────────────────────────── */
+    #about { background: var(--bg); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .about-image-wrap {
+      position: relative;
+    }
+    .about-image-placeholder {
+      width: 100%;
+      aspect-ratio: 4/5;
+      background: var(--bg-card);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-style: italic;
+      overflow: hidden;
+      position: relative;
+    }
+    .about-image-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 30% 70%, rgba(107,143,113,0.15), transparent 60%);
+    }
+    .about-badge {
+      position: absolute;
+      bottom: -20px; right: -20px;
+      background: var(--accent);
+      color: #fff;
+      padding: 20px 24px;
+      border-radius: var(--radius);
+    }
+    .about-badge-num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1;
+      display: block;
+    }
+    .about-badge-text {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.85;
+    }
+    .about-content h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3vw, 2.8rem);
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--primary);
+      margin-bottom: 24px;
+    }
+    .about-content h2 em { font-style: italic; color: var(--accent); }
+    .about-content p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.85;
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+    .about-content p strong { color: var(--text); font-weight: 500; }
+    .about-values {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+    .value-chip {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 7px 18px;
+      font-size: 0.77rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* ─── PILLARS ─────────────────────────────────────────────────── */
+    #pillars { background: var(--bg-card); }
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 56px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .pillar-card {
+      background: var(--bg);
+      padding: 40px 32px;
+      transition: background 0.25s;
+    }
+    .pillar-card:hover { background: var(--primary); }
+    .pillar-card:hover .pillar-title,
+    .pillar-card:hover .pillar-desc { color: rgba(255,255,255,0.9); }
+    .pillar-card:hover .pillar-num { color: rgba(255,255,255,0.2); }
+    .pillar-card:hover .pillar-icon { background: rgba(255,255,255,0.1); color: #fff; }
+    .pillar-num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 300;
+      color: var(--border);
+      line-height: 1;
+      margin-bottom: 20px;
+      transition: color 0.25s;
+    }
+    .pillar-icon {
+      width: 44px; height: 44px;
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+      transition: background 0.25s, color 0.25s;
+    }
+    .pillar-title {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--primary);
+      margin-bottom: 12px;
+      transition: color 0.25s;
+    }
+    .pillar-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      transition: color 0.25s;
+    }
+
+    /* ─── HOW IT WORKS ────────────────────────────────────────────── */
+    #how {
+      background: var(--bg);
+    }
+    .how-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+      margin-top: 16px;
+    }
+    .how-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .step {
+      display: flex;
+      gap: 24px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .step:first-child { padding-top: 0; }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      width: 36px; height: 36px;
+      border: 1.5px solid var(--primary);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .step-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+    .how-aside {
+      position: sticky;
+      top: 100px;
+    }
+    .how-card {
+      background: var(--primary);
+      border-radius: 12px;
+      padding: 40px;
+      color: var(--text-light);
+      margin-bottom: 20px;
+    }
+    .how-card-tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .how-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+    .how-card p {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+    .how-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .how-option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+    }
+    .how-option-label {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.85);
+    }
+    .how-option-tag {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(184,107,74,0.15);
+      padding: 4px 10px;
+      border-radius: 100px;
+    }
+    .disclaimer {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      display: flex;
+      gap: 14px;
+      align-items: start;
+    }
+    .disclaimer-icon {
+      font-size: 1rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .disclaimer p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* ─── FAQ ─────────────────────────────────────────────────────── */
+    #faq { background: var(--bg-card); }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .faq-sidebar {
+      position: sticky;
+      top: 100px;
+    }
+    .faq-sidebar h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3vw, 2.8rem);
+      font-weight: 400;
+      line-height: 1.18;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+    .faq-sidebar h2 em { font-style: italic; color: var(--accent); }
+    .faq-sidebar p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    .faq-item:first-child { padding-top: 0; border-top: 1px solid var(--border); }
+    .faq-q {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      user-select: none;
+    }
+    .faq-toggle {
+      width: 28px; height: 28px;
+      border: 1.5px solid var(--border);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+    .faq-item.open .faq-toggle {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      transform: rotate(45deg);
+    }
+    .faq-a {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s;
+    }
+    .faq-item.open .faq-a {
+      max-height: 400px;
+      padding-top: 14px;
+    }
+
+    /* ─── CTA ─────────────────────────────────────────────────────── */
+    #contact {
+      background: var(--primary);
+      padding: 100px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    #contact::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(107,143,113,0.2), transparent 70%);
+      pointer-events: none;
+    }
+    #contact::after {
+      content: '';
+      position: absolute;
+      bottom: -80px; left: -40px;
+      width: 400px; height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(184,107,74,0.15), transparent 70%);
+      pointer-events: none;
+    }
+    .cta-inner {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .cta-inner .tag { color: var(--sage); }
+    .cta-inner h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      font-weight: 400;
+      line-height: 1.15;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    .cta-inner h2 em { font-style: italic; color: var(--accent); }
+    .cta-inner p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.8;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+    .cta-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-accent {
+      background: var(--accent);
+      color: #fff;
+      padding: 16px 36px;
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-accent:hover {
+      background: #C97A58;
+      transform: translateY(-2px);
+    }
+    .btn-outline-light {
+      border: 1.5px solid rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.75);
+      padding: 16px 36px;
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-outline-light:hover {
+      border-color: rgba(255,255,255,0.6);
+      color: #fff;
+    }
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 56px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      flex-wrap: wrap;
+    }
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .contact-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+    }
+    .contact-value {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.75);
+      font-weight: 400;
+    }
+    .contact-value a {
+      color: inherit;
+      transition: color 0.2s;
+    }
+    .contact-value a:hover { color: var(--accent); }
+
+    /* ─── FOOTER ──────────────────────────────────────────────────── */
+    footer {
+      background: #111;
+      padding: 32px 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-logo {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: rgba(255,255,255,0.4);
+    }
+    .footer-logo span { color: rgba(184,107,74,0.7); }
+    .footer-note {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.25);
+      line-height: 1.5;
+      max-width: 420px;
+      text-align: center;
+    }
+    .footer-social {
+      display: flex;
+      gap: 20px;
+    }
+    .footer-social a {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      transition: color 0.2s;
+    }
+    .footer-social a:hover { color: rgba(255,255,255,0.7); }
+
+    /* ─── RESPONSIVE ─────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      :root { --section: 72px; }
+
+      .hero-grid,
+      .about-grid,
+      .how-grid,
+      .faq-grid { grid-template-columns: 1fr; gap: 48px; }
+
+      .hero-visual { display: none; }
+      .hero-headline { font-size: 2.4rem; }
+
+      .pillars-grid { grid-template-columns: 1fr; }
+
+      .about-badge { bottom: -16px; right: 0; }
+
+      .faq-sidebar { position: static; }
+      .faq-sidebar h2 { font-size: 2rem; }
+
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 65px; left: 0; right: 0;
+        background: var(--bg);
+        padding: 24px 32px 32px;
+        border-bottom: 1px solid var(--border);
+        gap: 20px;
+      }
+      .nav-links.open .nav-cta {
+        display: inline-block;
+        width: fit-content;
+      }
+      .nav-toggle { display: flex; }
+
+      .contact-info { gap: 24px; }
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 0 20px; }
+      .hero-headline { font-size: 2rem; }
+      .hero-actions { flex-direction: column; }
+      .cta-actions { flex-direction: column; align-items: center; }
+      .how-options { gap: 8px; }
+      .footer-inner { flex-direction: column; align-items: center; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAV
+════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="container">
+    <a href="/" class="nav-logo">Nitish <span>Ray</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#pillars">Focus Areas</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="nav-cta">Work With Me</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-grid">
+
+      <div class="hero-content">
+        <div class="hero-eyebrow reveal">
+          <div class="hero-eyebrow-line"></div>
+          <span class="hero-eyebrow-text">Wellness Coach · Sydney</span>
+        </div>
+        <h1 class="hero-headline reveal" style="transition-delay:0.1s">
+          Wellness that <em>fits</em> your actual life
+        </h1>
+        <p class="hero-sub reveal" style="transition-delay:0.2s">
+          For busy people who want to feel better — without overhauling everything. Simple habits, honest conversations, real progress.
+        </p>
+        <div class="hero-actions reveal" style="transition-delay:0.3s">
+          <a href="#contact" class="btn-primary">Start a Conversation</a>
+          <a href="#how" class="btn-ghost">How It Works</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" style="transition-delay:0.25s">
+        <div class="hero-card-stack">
+          <div class="hero-card-back"></div>
+          <div class="hero-card-main">
+            <div class="card-tag">What people say</div>
+            <div class="card-quote">"I didn't need another plan. I needed someone to help me actually follow one."</div>
+            <div class="card-author">
+              <div class="card-author-dot">NR</div>
+              <div>
+                <div class="card-author-name">Proactive Nitish</div>
+                <div class="card-author-role">Real-life wellness, no hype</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">8</div>
+              <div class="stat-label">Wellness focus areas</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">12<span style="font-size:1.2rem">wk</span></div>
+              <div class="stat-label">Max follow-up support</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">1:1</div>
+              <div class="stat-label">Private sessions only</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     MARQUEE
+════════════════════════════════════════════════ -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <!-- set doubled for seamless loop -->
+    <span class="marquee-item"><span class="marquee-dot"></span>Sleep Habits</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Daily Movement</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Energy Management</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Stress Awareness</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Basic Nutrition</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Hydration</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Simple Tracking</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Habit Building</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Sleep Habits</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Daily Movement</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Energy Management</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Stress Awareness</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Basic Nutrition</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Hydration</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Simple Tracking</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Habit Building</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     ABOUT
+════════════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-image-wrap reveal">
+        <div class="about-image-placeholder">
+          <!-- Replace with: <img src="nitish-ray.jpg" alt="Nitish Ray – Wellness Coach Sydney" /> -->
+          <span>Your photo here</span>
+        </div>
+        <div class="about-badge">
+          <span class="about-badge-num">100%</span>
+          <span class="about-badge-text">No hype</span>
+        </div>
+      </div>
+
+      <div class="about-content reveal" style="transition-delay:0.15s">
+        <span class="tag">About Nitish</span>
+        <h2>Built from <em>real life</em>, not a perfect routine</h2>
+        <p>
+          I know what it's like to work full time, commute long hours, and still try to take care of yourself. I'm not a wellness influencer with a perfect morning routine. I'm someone who's figured out what actually works when life is messy and energy is low.
+        </p>
+        <p>
+          That's what I help people with — <strong>finding the smallest, most realistic version of better</strong> that you can actually stick to. Not the version that sounds impressive. The version that fits your actual week.
+        </p>
+        <p>
+          My approach is built on honest conversation, simple habit focus, and follow-up support — not overwhelming programs or generic advice. Everything stays <strong>practical, private, and pressure-free</strong>.
+        </p>
+        <div class="about-values">
+          <span class="value-chip">Trust-first</span>
+          <span class="value-chip">No pressure</span>
+          <span class="value-chip">Realistic</span>
+          <span class="value-chip">Private 1:1</span>
+          <span class="value-chip">Sydney-based</span>
+          <span class="value-chip">Honest</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     PILLARS
+════════════════════════════════════════════════ -->
+<section id="pillars">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">Focus Areas</span>
+      <h2>Eight areas. One small step at a time.</h2>
+      <p>Every session focuses on what's most relevant to you right now — not everything at once. Small, consistent wins beat overwhelming overhauls every time.</p>
+    </div>
+
+    <div class="pillars-grid">
+
+      <div class="pillar-card reveal">
+        <div class="pillar-num">01</div>
+        <div class="pillar-icon">🌙</div>
+        <div class="pillar-title">Sleep</div>
+        <p class="pillar-desc">Understanding what's disrupting your rest and finding simple shifts that actually improve how you wake up.</p>
+      </div>
+
+      <div class="pillar-card reveal" style="transition-delay:0.08s">
+        <div class="pillar-num">02</div>
+        <div class="pillar-icon">🥗</div>
+        <div class="pillar-title">Basic Nutrition</div>
+        <p class="pillar-desc">No meal plans or diets. Just practical awareness of what you're eating and easy anchors that support your energy.</p>
+      </div>
+
+      <div class="pillar-card reveal" style="transition-delay:0.16s">
+        <div class="pillar-num">03</div>
+        <div class="pillar-icon">🚶</div>
+        <div class="pillar-title">Daily Movement</div>
+        <p class="pillar-desc">Movement that fits your real schedule — not gym memberships and HIIT. Consistency over intensity.</p>
+      </div>
+
+      <div class="pillar-card reveal" style="transition-delay:0.08s">
+        <div class="pillar-num">04</div>
+        <div class="pillar-icon">⚡</div>
+        <div class="pillar-title">Energy Management</div>
+        <p class="pillar-desc">Identifying what drains you and what restores you — then building your day around that reality.</p>
+      </div>
+
+      <div class="pillar-card reveal" style="transition-delay:0.16s">
+        <div class="pillar-num">05</div>
+        <div class="pillar-icon">🌿</div>
+        <div class="pillar-title">Stress Awareness</div>
+        <p class="pillar-desc">Recognising stress patterns before they accumulate, and having simple tools to interrupt them.</p>
+      </div>
+
+      <div class="pillar-card reveal" style="transition-delay:0.24s">
+        <div class="pillar-num">06</div>
+        <div class="pillar-icon">💧</div>
+        <div class="pillar-title">Hydration</div>
+        <p class="pillar-desc">Often the most overlooked factor in fatigue and focus. Small, sustainable habits that actually stick.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     HOW IT WORKS
+════════════════════════════════════════════════ -->
+<section id="how">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">The Process</span>
+      <h2>Simple by design.</h2>
+      <p>No complicated onboarding or overwhelming intake forms. A real conversation first, then a simple, personalised focus.</p>
+    </div>
+
+    <div class="how-grid">
+
+      <div class="how-steps">
+        <div class="step reveal">
+          <div class="step-num">1</div>
+          <div>
+            <div class="step-title">Start with a conversation</div>
+            <p class="step-desc">We talk about what's actually going on — your work, your schedule, your energy, your goals. No forms. Just an honest, pressure-free chat.</p>
+          </div>
+        </div>
+        <div class="step reveal" style="transition-delay:0.1s">
+          <div class="step-num">2</div>
+          <div>
+            <div class="step-title">Identify your one focus area</div>
+            <p class="step-desc">Rather than trying to fix everything, we identify what would make the biggest difference right now and start there.</p>
+          </div>
+        </div>
+        <div class="step reveal" style="transition-delay:0.2s">
+          <div class="step-num">3</div>
+          <div>
+            <div class="step-title">Build one small, real habit</div>
+            <p class="step-desc">I help you find the smallest version of the habit that actually fits your life — not the aspirational version.</p>
+          </div>
+        </div>
+        <div class="step reveal" style="transition-delay:0.3s">
+          <div class="step-num">4</div>
+          <div>
+            <div class="step-title">Follow-up check-ins</div>
+            <p class="step-desc">Support doesn't stop after one session. 4-week, 8-week, or 12-week check-in options to keep you honest and adjust as life changes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="how-aside reveal" style="transition-delay:0.15s">
+        <div class="how-card">
+          <div class="how-card-tag">Follow-up Options</div>
+          <h3>Choose the support level that fits your life</h3>
+          <p>Coaching is flexible. There's no pressure to commit to more than you need.</p>
+          <div class="how-options">
+            <div class="how-option">
+              <span class="how-option-label">4-Week Check-in</span>
+              <span class="how-option-tag">Starter</span>
+            </div>
+            <div class="how-option">
+              <span class="how-option-label">8-Week Support</span>
+              <span class="how-option-tag">Most common</span>
+            </div>
+            <div class="how-option">
+              <span class="how-option-label">12-Week Journey</span>
+              <span class="how-option-tag">Full support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="disclaimer">
+          <span class="disclaimer-icon">ℹ️</span>
+          <p>Nitish Ray offers general wellness coaching and education — not medical advice, diagnosis, or treatment. For specific health concerns, please consult a qualified GP or healthcare professional.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     FAQ
+════════════════════════════════════════════════ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-grid">
+
+      <div class="faq-sidebar reveal">
+        <span class="tag">Questions</span>
+        <h2>Things people usually <em>ask</em></h2>
+        <p>If something isn't answered here, just reach out — happy to have a quick chat before you commit to anything.</p>
+      </div>
+
+      <div class="faq-list reveal" style="transition-delay:0.1s">
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Who is this coaching for?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">Busy working people — those with full-time jobs, long commutes, and limited energy who want to feel better without a complete life overhaul. If you've tried big programs and they haven't stuck, this is built for people like you.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            What does a session actually cover?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">We focus on what's most relevant to you — sleep, nutrition basics, movement, energy, stress, or hydration. The goal is always one clear, small action you can actually take this week. No information overload.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Is this medical advice?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">No. This is general wellness coaching and education. Nitish is not a doctor and does not diagnose, treat, or prescribe. For medical concerns, always speak to a qualified GP or healthcare professional.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            How much time does this take?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">The sessions themselves are conversational and focused — typically 30 to 60 minutes. The habits we build together are designed to take minutes, not hours. If it doesn't fit your real week, we make it smaller.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Can I do this online or does it have to be in person?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">Both are available. Nitish is based in Sydney, so in-person sessions are possible locally. Online coaching is also available for people elsewhere in Australia or internationally.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            What if I don't follow through between sessions?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-a">That's part of the conversation — not something to hide. Real coaching includes honest check-ins about what didn't happen and why. We adjust, we don't shame. If the habit didn't work, that's useful information.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     CTA / CONTACT
+════════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <span class="tag">Work With Me</span>
+      <h2>Start with a <em>simple</em> conversation</h2>
+      <p>No obligation. No sales pitch. Just a real chat about where you're at and whether this kind of support would actually help.</p>
+      <div class="cta-actions">
+        <a href="mailto:hello@nitishray.com" class="btn-accent">Get in Touch</a>
+        <a href="https://www.instagram.com/proactivenitish" target="_blank" rel="noopener" class="btn-outline-light">Follow on Instagram</a>
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value"><a href="mailto:hello@nitishray.com">hello@nitishray.com</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Sydney, Australia</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value"><a href="https://www.instagram.com/proactivenitish" target="_blank" rel="noopener">@proactivenitish</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Sessions</span>
+          <span class="contact-value">In-person &amp; Online</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Nitish <span>Ray</span></div>
+      <p class="footer-note">General wellness coaching and education only. Not medical advice. Always consult a qualified GP or health professional for medical concerns. &copy; 2026 Nitish Ray. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/proactivenitish" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════ -->
+<script>
+  // Sticky nav
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // Mobile nav
+  const toggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+
+  // Reveal on scroll
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // FAQ accordion
+  function toggleFaq(el) {
+    const item = el.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
+
+</body>
+</html>
