@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Read — Wellness Insights | Proactive Nitish</title>
+  <meta name="description" content="Honest, practical wellness articles by Nitish Ray. Real insights for busy working people on sleep, habits, nutrition, energy, and stress — no hype." />
+  <meta name="author" content="Nitish Ray" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://nitishray.com/blog.html" />
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://nitishray.com/blog.html" />
+  <meta property="og:title"       content="Read — Wellness Insights | Proactive Nitish" />
+  <meta property="og:description" content="Honest, practical wellness articles for busy working people by Nitish Ray." />
+  <meta property="og:image"       content="https://nitishray.com/images/og-image.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": "https://nitishray.com/blog.html",
+    "name": "Proactive Nitish — Read",
+    "description": "Honest wellness articles for busy working people by Nitish Ray.",
+    "url": "https://nitishray.com/blog.html",
+    "author": {
+      "@type": "Person",
+      "name": "Nitish Ray",
+      "@id": "https://nitishray.com/#nitishray"
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Why Busy People Keep Failing at Wellness Habits",
+        "url": "https://nitishray.com/posts/why-busy-people-fail-at-wellness.html",
+        "datePublished": "2026-05-01",
+        "author": { "@id": "https://nitishray.com/#nitishray" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "What a 30-Minute Wellness Check Actually Reveals",
+        "url": "https://nitishray.com/posts/what-a-wellness-check-reveals.html",
+        "datePublished": "2026-05-05",
+        "author": { "@id": "https://nitishray.com/#nitishray" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "The First Habit Worth Building When You're Exhausted",
+        "url": "https://nitishray.com/posts/first-habit-when-exhausted.html",
+        "datePublished": "2026-05-10",
+        "author": { "@id": "https://nitishray.com/#nitishray" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Sleep vs Nutrition: Which Matters More When You're Time-Poor?",
+        "url": "https://nitishray.com/posts/sleep-vs-nutrition.html",
+        "datePublished": "2026-05-14",
+        "author": { "@id": "https://nitishray.com/#nitishray" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Progress, Not Performance: Why the Wellness Industry Gets It Wrong",
+        "url": "https://nitishray.com/posts/progress-not-performance.html",
+        "datePublished": "2026-05-19",
+        "author": { "@id": "https://nitishray.com/#nitishray" }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* ── BLOG INDEX PAGE STYLES ─────────────────────────── */
+    .blog-hero {
+      padding-top: 120px;
+      padding-bottom: var(--space-16);
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+
+    .blog-hero__label {
+      font-size: var(--text-xs);
+      font-weight: var(--weight-semi);
+      letter-spacing: var(--tracking-widest);
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: var(--space-4);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .blog-hero__label::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 1.5px;
+      background: var(--color-accent);
+    }
+
+    .blog-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(var(--text-3xl), 6vw, var(--text-5xl));
+      font-weight: var(--weight-regular);
+      line-height: var(--leading-tight);
+      color: var(--color-primary);
+      letter-spacing: var(--tracking-tight);
+      margin-bottom: var(--space-5);
+    }
+
+    .blog-hero h1 em {
+      font-style: italic;
+      color: var(--color-accent);
+    }
+
+    .blog-hero p {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      line-height: var(--leading-loose);
+      font-weight: var(--weight-light);
+      max-width: 52ch;
+    }
+
+    /* Posts grid */
+    .blog-section {
+      padding-block: var(--space-16);
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-5);
+    }
+
+    /* Featured first post */
+    .post-card--featured {
+      background: var(--color-primary);
+      border-radius: var(--radius-lg);
+      padding: var(--space-10) var(--space-8);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+      text-decoration: none;
+      transition: transform var(--duration-base) var(--ease-out),
+                  box-shadow var(--duration-base) var(--ease-out);
+    }
+
+    .post-card--featured:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .post-card--featured .post-card__tag {
+      color: var(--color-sage);
+    }
+
+    .post-card--featured .post-card__tag::before {
+      background: var(--color-sage);
+    }
+
+    .post-card--featured h2 {
+      font-family: var(--font-display);
+      font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+      font-weight: var(--weight-regular);
+      line-height: var(--leading-snug);
+      color: #fff;
+      letter-spacing: var(--tracking-tight);
+    }
+
+    .post-card--featured .post-card__excerpt {
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.55);
+      line-height: var(--leading-loose);
+      font-weight: var(--weight-light);
+    }
+
+    .post-card--featured .post-card__meta {
+      color: rgba(255,255,255,0.35);
+    }
+
+    .post-card--featured .post-card__arrow {
+      color: var(--color-accent);
+    }
+
+    /* Regular post cards */
+    .posts-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+    }
+
+    .post-card {
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8) var(--space-8);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      text-decoration: none;
+      transition: box-shadow var(--duration-base) var(--ease-out),
+                  transform var(--duration-base) var(--ease-out),
+                  border-color var(--duration-base);
+    }
+
+    .post-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+      border-color: var(--color-primary);
+    }
+
+    .post-card__tag {
+      font-size: var(--text-xs);
+      font-weight: var(--weight-semi);
+      letter-spacing: var(--tracking-widest);
+      text-transform: uppercase;
+      color: var(--color-accent);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .post-card__tag::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 1.5px;
+      background: var(--color-accent);
+      flex-shrink: 0;
+    }
+
+    .post-card h2 {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: var(--weight-medium);
+      line-height: var(--leading-snug);
+      color: var(--color-primary);
+      letter-spacing: var(--tracking-tight);
+    }
+
+    .post-card h3 {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: var(--weight-medium);
+      line-height: var(--leading-snug);
+      color: var(--color-primary);
+      letter-spacing: var(--tracking-tight);
+    }
+
+    .post-card__excerpt {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: var(--leading-loose);
+      font-weight: var(--weight-light);
+    }
+
+    .post-card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-border-subtle);
+      margin-top: auto;
+    }
+
+    .post-card__meta {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      font-weight: var(--weight-medium);
+    }
+
+    .post-card__arrow {
+      font-size: var(--text-lg);
+      color: var(--color-accent);
+      transition: transform var(--duration-fast) var(--ease-out);
+    }
+
+    .post-card:hover .post-card__arrow,
+    .post-card--featured:hover .post-card__arrow {
+      transform: translateX(4px);
+    }
+
+    @media (min-width: 640px) {
+      .posts-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 960px) {
+      .post-card--featured {
+        padding: var(--space-16) var(--space-12);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<header id="nav" class="nav" role="banner">
+  <div class="container">
+    <nav class="nav__inner" aria-label="Main navigation">
+      <a href="/" class="nav__logo" aria-label="Proactive Nitish — Home">
+        Proactive <span>Nitish</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#pillars">Focus Areas</a></li>
+        <li><a href="/#how">How It Works</a></li>
+        <li><a href="blog.html" aria-current="page">Read</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a href="/#contact" class="btn btn-primary">Work With Me</a></li>
+      </ul>
+      <button id="navToggle" class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navDrawer">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <nav id="navDrawer" class="nav__drawer" aria-label="Mobile navigation">
+    <a href="/#about">About</a>
+    <a href="/#pillars">Focus Areas</a>
+    <a href="/#how">How It Works</a>
+    <a href="blog.html">Read</a>
+    <a href="/#faq">FAQ</a>
+    <a href="/#contact" class="btn btn-primary">Work With Me</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- BLOG HERO -->
+  <div class="blog-hero">
+    <div class="container">
+      <p class="blog-hero__label reveal">Proactive Nitish</p>
+      <h1 class="reveal reveal-delay-1">Honest takes on<br /><em>real wellness.</em></h1>
+      <p class="reveal reveal-delay-2">No perfect morning routines. No overnight transformations. Just practical insight for people who work hard and want to feel better — written by someone navigating the same thing.</p>
+    </div>
+  </div>
+
+  <!-- POSTS -->
+  <div class="blog-section">
+    <div class="container">
+
+      <!-- Featured post -->
+      <a href="posts/progress-not-performance.html" class="post-card--featured reveal" aria-label="Read: Progress, Not Performance">
+        <p class="post-card__tag">Featured</p>
+        <h2>Progress, Not Performance:<br />Why the Wellness Industry Gets It Wrong</h2>
+        <p class="post-card__excerpt">Most wellness content is built for people who already have their life together. This is for everyone else — and why chasing performance is the reason most habits fail.</p>
+        <div class="post-card__footer">
+          <span class="post-card__meta">Nitish Ray &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; 5 min read</span>
+          <span class="post-card__arrow">→</span>
+        </div>
+      </a>
+
+      <!-- Regular posts -->
+      <div class="posts-list">
+
+        <a href="posts/why-busy-people-fail-at-wellness.html" class="post-card reveal" aria-label="Read: Why Busy People Keep Failing at Wellness Habits">
+          <p class="post-card__tag">Habits</p>
+          <h3>Why Busy People Keep Failing at Wellness Habits</h3>
+          <p class="post-card__excerpt">It's not laziness. It's not lack of willpower. There's a specific structural reason why wellness habits don't stick for people with demanding lives.</p>
+          <div class="post-card__footer">
+            <span class="post-card__meta">May 2026 &nbsp;·&nbsp; 4 min read</span>
+            <span class="post-card__arrow">→</span>
+          </div>
+        </a>
+
+        <a href="posts/what-a-wellness-check-reveals.html" class="post-card reveal reveal-delay-1" aria-label="Read: What a 30-Minute Wellness Check Actually Reveals">
+          <p class="post-card__tag">Assessment</p>
+          <h3>What a 30-Minute Wellness Check Actually Reveals</h3>
+          <p class="post-card__excerpt">Most people are surprised by what a simple body composition and nutrition assessment shows — not because it's scary, but because it makes things click.</p>
+          <div class="post-card__footer">
+            <span class="post-card__meta">May 2026 &nbsp;·&nbsp; 4 min read</span>
+            <span class="post-card__arrow">→</span>
+          </div>
+        </a>
+
+        <a href="posts/first-habit-when-exhausted.html" class="post-card reveal" aria-label="Read: The First Habit Worth Building When You're Exhausted">
+          <p class="post-card__tag">Energy</p>
+          <h3>The First Habit Worth Building When You're Exhausted</h3>
+          <p class="post-card__excerpt">When energy is low and motivation is lower, most habit advice becomes useless. Here's the one thing worth starting with — and why it works when everything else hasn't.</p>
+          <div class="post-card__footer">
+            <span class="post-card__meta">May 2026 &nbsp;·&nbsp; 4 min read</span>
+            <span class="post-card__arrow">→</span>
+          </div>
+        </a>
+
+        <a href="posts/sleep-vs-nutrition.html" class="post-card reveal reveal-delay-1" aria-label="Read: Sleep vs Nutrition">
+          <p class="post-card__tag">Sleep · Nutrition</p>
+          <h3>Sleep vs Nutrition: Which Matters More When You're Time-Poor?</h3>
+          <p class="post-card__excerpt">You can't fix both at once when you're running on empty. So which one do you tackle first? The answer might not be what you expect.</p>
+          <div class="post-card__footer">
+            <span class="post-card__meta">May 2026 &nbsp;·&nbsp; 5 min read</span>
+            <span class="post-card__arrow">→</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__inner">
+      <a href="/" class="footer__logo" aria-label="Proactive Nitish — Home">Proactive <span>Nitish</span></a>
+      <p class="footer__note">General wellness coaching and education only — not medical advice. Always consult a qualified GP or health professional for medical concerns. &copy; <span id="currentYear"></span> Nitish Ray. All rights reserved.</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://wa.me/61415586930" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://www.instagram.com/proactivenitish" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
