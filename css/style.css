@@ -746,13 +746,14 @@ section {
 /* Accent badge */
 .about__badge {
   position: absolute;
-  bottom: -var(--space-5);
-  right: -var(--space-4);
+  bottom: var(--space-4);
+  right: var(--space-4);
   background: var(--color-accent);
   color: #fff;
-  padding: var(--space-5) var(--space-6);
+  padding: var(--space-4) var(--space-5);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-lg);
+  z-index: var(--z-raised);
 }
 
 .about__badge-num {
