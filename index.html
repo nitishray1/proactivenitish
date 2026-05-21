@@ -183,7 +183,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#pillars">Focus Areas</a></li>
         <li><a href="#how">How It Works</a></li>
-        <li><a href="blog.html">Read</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact" class="btn btn-primary">Work With Me</a></li>
       </ul>
@@ -207,7 +206,6 @@
     <a href="#about">About</a>
     <a href="#pillars">Focus Areas</a>
     <a href="#how">How It Works</a>
-    <a href="blog.html">Read</a>
     <a href="#faq">FAQ</a>
     <a href="#contact" class="btn btn-primary">Work With Me</a>
   </nav>
@@ -225,6 +223,11 @@
     <div class="hero__grid">
 
       <div class="hero__content">
+
+        <div class="hero__eyebrow reveal" aria-hidden="true">
+          <span class="hero__eyebrow-line"></span>
+          <span class="hero__eyebrow-text">Wellness Coach &middot; Sydney</span>
+        </div>
 
         <h1 class="hero__headline reveal reveal-delay-1">
           Progress,<br />not <em>performance.</em>
@@ -340,13 +343,18 @@
 
       <div class="about__image-wrap reveal">
         <figure class="about__image">
-          <img
-            src="images/nitish-ray.jpg"
-            alt="Nitish Ray — Wellness Coach, Sydney"
-            width="800"
-            height="1000"
-            loading="lazy"
-          />
+          <!--
+            TO ADD YOUR PHOTO:
+            Delete the div below and replace with:
+            <img
+              src="images/nitish-ray.jpg"
+              alt="Nitish Ray — Wellness Coach, Sydney"
+              width="800"
+              height="1000"
+              loading="lazy"
+            />
+          -->
+          <div class="about__image-placeholder">Your photo goes here</div>
         </figure>
         <div class="about__badge" aria-hidden="true">
           <span class="about__badge-num">100%</span>
@@ -397,7 +405,7 @@
 
     <div class="section-header reveal">
       <span class="tag">Focus Areas</span>
-      <h2 id="pillars-heading">Eight focus areas.<br />One small step at a time.</h2>
+      <h2 id="pillars-heading">Eight areas.<br />One small step at a time.</h2>
       <p>Every session focuses on what's most relevant to you right now — not everything at once. Small, consistent wins beat overwhelming overhauls every single time.</p>
     </div>
 
@@ -445,20 +453,6 @@
         <p class="pillar-card__desc">Often the most overlooked factor in fatigue and focus. Small, sustainable habits that actually stick without thinking about it.</p>
       </article>
 
-      <article class="pillar-card reveal" role="listitem">
-        <div class="pillar-card__num" aria-hidden="true">07</div>
-        <div class="pillar-card__icon" aria-hidden="true">🧠</div>
-        <h3 class="pillar-card__title">Mindset & Self-Talk</h3>
-        <p class="pillar-card__desc">How you talk to yourself on a hard week matters as much as what you eat. Building a realistic inner narrative around progress — not perfection — is a skill, not a personality trait.</p>
-      </article>
-
-      <article class="pillar-card reveal reveal-delay-1" role="listitem">
-        <div class="pillar-card__num" aria-hidden="true">08</div>
-        <div class="pillar-card__icon" aria-hidden="true">📋</div>
-        <h3 class="pillar-card__title">Habit Tracking</h3>
-        <p class="pillar-card__desc">What gets measured improves. Simple, low-friction ways to track the habits that matter — not a complicated system, just enough to stay honest with yourself week to week.</p>
-      </article>
-
     </div>
   </div>
 </section>
@@ -472,8 +466,8 @@
 
     <div class="section-header reveal">
       <span class="tag">The Process</span>
-      <h2 id="how-heading">Structured. Private.<br />Built around you.</h2>
-      <p>Every session follows a clear process — education, honest conversation, a proper wellness check, and a plan that actually fits your life. Then we follow up every four weeks to keep it real.</p>
+      <h2 id="how-heading">Simple by design.</h2>
+      <p>No complicated onboarding or overwhelming intake forms. A real conversation first, then a simple personalised focus. That's it.</p>
     </div>
 
     <div class="how__grid">
@@ -483,40 +477,32 @@
         <li class="step reveal">
           <div class="step__num" aria-hidden="true">1</div>
           <div class="step__body">
-            <h3 class="step__title">Education first</h3>
-            <p class="step__desc">Nitish walks you through the key wellness areas that matter — sleep, blood sugar, heart health, stress, nutrition, and lifestyle — using a structured booklet so nothing gets missed and everything is explained clearly.</p>
+            <h3 class="step__title">Start with a real conversation</h3>
+            <p class="step__desc">Nitish talks through what's actually going on — your work, schedule, energy, and goals. No forms, no pressure. Just an honest chat to understand where you're at right now.</p>
           </div>
         </li>
 
         <li class="step reveal reveal-delay-1">
           <div class="step__num" aria-hidden="true">2</div>
           <div class="step__body">
-            <h3 class="step__title">Your concerns, your priorities</h3>
-            <p class="step__desc">Once you understand the landscape, you share what matters most to you — energy, weight, sleep, digestion, stress, or anything else. No agenda, no assumptions. This is your session.</p>
+            <h3 class="step__title">Identify your one focus area</h3>
+            <p class="step__desc">Rather than fixing everything at once, together you identify what would make the biggest difference right now and start there. One thing done well beats ten things done poorly.</p>
           </div>
         </li>
 
         <li class="step reveal reveal-delay-2">
           <div class="step__num" aria-hidden="true">3</div>
           <div class="step__body">
-            <h3 class="step__title">A proper wellness check</h3>
-            <p class="step__desc">Nitish conducts a simple body composition check and nutrition assessment to give you a clear starting point — real numbers, not guesses — so progress can be measured, not just felt.</p>
+            <h3 class="step__title">Build one small, real habit</h3>
+            <p class="step__desc">Nitish helps you find the smallest version of the habit that actually fits your life — not the aspirational version. Small enough that it happens on a bad week too.</p>
           </div>
         </li>
 
         <li class="step reveal reveal-delay-3">
           <div class="step__num" aria-hidden="true">4</div>
           <div class="step__body">
-            <h3 class="step__title">A plan that fits your actual week</h3>
-            <p class="step__desc">From everything discussed, Nitish builds one focused, realistic plan — not a list of twenty things, just the most important next step. Small enough to survive a hard week.</p>
-          </div>
-        </li>
-
-        <li class="step reveal reveal-delay-4">
-          <div class="step__num" aria-hidden="true">5</div>
-          <div class="step__body">
-            <h3 class="step__title">Follow-through & accountability</h3>
-            <p class="step__desc">This is where most programs fail — and where this one doesn't. Every four weeks Nitish checks back in, reviews what worked, adjusts what didn't, and keeps you moving forward. No guilt, no ghosting. Just consistent support from someone who actually remembers what you said last time.</p>
+            <h3 class="step__title">Follow-up check-ins</h3>
+            <p class="step__desc">Support doesn't stop after one session. 4-week, 8-week, or 12-week check-in options keep you honest and allow the plan to adjust as your life changes.</p>
           </div>
         </li>
 
@@ -552,69 +538,6 @@
       </aside>
 
     </div>
-  </div>
-</section>
-
-
-<!-- ═══════════════════════════════════════════════════════
-     TESTIMONIALS
-════════════════════════════════════════════════════════ -->
-<section id="testimonials" class="bg-subtle" aria-labelledby="testimonials-heading">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="tag">What People Say</span>
-      <h2 id="testimonials-heading">Real people.<br /><em>Real results.</em></h2>
-      <p>Not transformations. Just honest accounts of what changed when someone stopped trying to be perfect and started being consistent.</p>
-    </div>
-
-    <div class="testimonials__grid">
-
-      <div class="testimonial-card reveal">
-        <div class="testimonial-card__quote">
-          "I've tried every morning routine tip on the internet. Nitish was the first person who actually looked at my shift schedule before suggesting anything. Three months later I'm sleeping better and I stopped skipping meals."
-        </div>
-        <div class="testimonial-card__author">
-          <div class="testimonial-card__avatar" aria-hidden="true">S</div>
-          <div>
-            <div class="testimonial-card__name">Sarah M.</div>
-            <div class="testimonial-card__role">Nurse, Sydney</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card reveal reveal-delay-1">
-        <div class="testimonial-card__quote">
-          "Honestly I came in skeptical — I thought it was going to be another supplement pitch. It wasn't. We spent most of the first session talking about what my week actually looks like. The plan had four things on it. I've stuck to three of them."
-        </div>
-        <div class="testimonial-card__author">
-          <div class="testimonial-card__avatar" aria-hidden="true">J</div>
-          <div>
-            <div class="testimonial-card__name">James T.</div>
-            <div class="testimonial-card__role">IT Professional, Sydney</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card reveal reveal-delay-2">
-        <div class="testimonial-card__quote">
-          "The body check at the start was eye-opening — not scary, just real. Seeing actual numbers made it click in a way that generic advice never did. Six weeks in and my energy after work is genuinely different."
-        </div>
-        <div class="testimonial-card__author">
-          <div class="testimonial-card__avatar" aria-hidden="true">P</div>
-          <div>
-            <div class="testimonial-card__name">Priya K.</div>
-            <div class="testimonial-card__role">Student, Sydney</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <p class="testimonials__disclaimer reveal">
-      * These are illustrative examples. Real client results vary. Individual outcomes depend on consistency, lifestyle, and personal circumstances.
-    </p>
-
   </div>
 </section>
 
@@ -717,30 +640,24 @@
 
       <div class="cta__actions">
         <a
-          href="https://wa.me/61415586930?text=Hi%20Nitish%2C%20I%27d%20like%20to%20learn%20more%20about%20your%20wellness%20coaching"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn btn-accent"
-          aria-label="Message Nitish on WhatsApp"
-        >
-          Message on WhatsApp
-        </a>
-        <a
           href="mailto:hello@nitishray.com"
-          class="btn btn-outline-light"
+          class="btn btn-accent"
           aria-label="Send an email to Nitish Ray"
         >
-          Send an Email
+          Get in Touch
+        </a>
+        <a
+          href="https://www.instagram.com/proactivenitish"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline-light"
+          aria-label="Follow Proactive Nitish on Instagram"
+        >
+          Follow on Instagram
         </a>
       </div>
 
       <div class="cta__details" aria-label="Contact information">
-        <div class="cta-detail">
-          <span class="cta-detail__label">WhatsApp</span>
-          <span class="cta-detail__value">
-            <a href="https://wa.me/61415586930" target="_blank" rel="noopener noreferrer">+61 415 586 930</a>
-          </span>
-        </div>
         <div class="cta-detail">
           <span class="cta-detail__label">Email</span>
           <span class="cta-detail__value">
@@ -788,14 +705,6 @@
       </p>
 
       <nav class="footer__links" aria-label="Footer navigation">
-        <a
-          href="https://wa.me/61415586930"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp Nitish"
-        >
-          WhatsApp
-        </a>
         <a
           href="https://www.instagram.com/proactivenitish"
           target="_blank"
