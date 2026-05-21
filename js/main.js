@@ -244,6 +244,60 @@ const initYear = () => {
 };
 
 
+/* ── TESTIMONIALS CAROUSEL ───────────────────────────────── */
+
+const initCarousel = () => {
+  const track  = $('#testimonialsTrack');
+  const dots   = $$('.testimonials__dot');
+  if (!track || !dots.length) return;
+
+  let current   = 0;
+  let startX    = 0;
+  let isDragging = false;
+  const total   = dots.length;
+
+  const goTo = (index) => {
+    current = (index + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  };
+
+  // Dot clicks
+  dots.forEach((dot, i) => {
+    on(dot, 'click', () => goTo(i));
+  });
+
+  // Touch / drag swipe
+  on(track, 'mousedown', (e) => {
+    startX    = e.clientX;
+    isDragging = true;
+  });
+
+  on(track, 'touchstart', (e) => {
+    startX = e.touches[0].clientX;
+  }, { passive: true });
+
+  on(document, 'mouseup', (e) => {
+    if (!isDragging) return;
+    isDragging = false;
+    const diff = startX - e.clientX;
+    if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
+  });
+
+  on(track, 'touchend', (e) => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
+  }, { passive: true });
+
+  // Auto-advance every 6 seconds
+  let autoplay = setInterval(() => goTo(current + 1), 6000);
+
+  // Pause autoplay on interaction
+  on(track, 'mousedown', () => clearInterval(autoplay));
+  on(track, 'touchstart', () => clearInterval(autoplay), { passive: true });
+};
+
+
 /* ── INIT ─────────────────────────────────────────────────── */
 
 const init = () => {
@@ -254,6 +308,7 @@ const init = () => {
   initActiveNav();
   initMarquee();
   initYear();
+  initCarousel();
 };
 
 if (document.readyState === 'loading') {
