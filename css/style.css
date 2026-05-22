@@ -1767,3 +1767,8 @@ section {
   }
 }
 
+/* Show content even if JavaScript reveal animation fails */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
