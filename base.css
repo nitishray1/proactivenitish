@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nitish Ray — Proactive Nitish | Wellness Coaching, Sydney</title>
+<meta name="description" content="Nitish Ray helps busy working people build realistic wellness habits and personal discipline — without hype, pressure, or routines built for someone else's life. Sydney-based, available online."/>
+<meta property="og:title" content="Nitish Ray — Proactive Nitish"/>
+<meta property="og:description" content="Wellness coaching for busy working people. Sydney-based, available online."/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/tokens.css"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/components.css"/>
+<link rel="stylesheet" href="css/nav.css"/>
+<link rel="stylesheet" href="css/sections.css"/>
+</head>
+<body>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-row">
+    <a href="index.html" class="nav-logo">
+      Nitish Ray
+      <span class="nav-logo-pill">Proactive Nitish</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#coaching">Coaching</a></li>
+      <li><a href="#honest">Real Talk</a></li>
+      <li><a href="blog.html">Insights</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#who">Who It's For</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-outline btn-sm">Get in touch</a>
+      <a href="https://wa.me/61415586930" class="btn btn-dark btn-sm" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </div>
+    <button class="nav-ham" id="nav-ham" aria-label="Open menu" aria-expanded="false" aria-controls="mob-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mob-menu" id="mob-menu" aria-hidden="true">
+  <a href="#about">About</a>
+  <a href="#coaching">Coaching</a>
+  <a href="#honest">Real Talk</a>
+  <a href="#leadership">Leadership &amp; Community</a>
+  <a href="blog.html">Insights &amp; Blog</a>
+  <a href="#books">Books That Changed Me</a>
+  <a href="#who">Who It's For</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <div class="mob-ctas">
+    <a href="https://wa.me/61415586930" class="btn btn-dark btn-lg" target="_blank" rel="noopener">💬 WhatsApp Nitish</a>
+    <a href="mailto:proactivenitish@gmail.com" class="btn btn-outline btn-lg">✉️ Send an Email</a>
+  </div>
+</div>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="hero">
+  <div class="hero-blob blob-1"></div>
+  <div class="hero-blob blob-2"></div>
+  <div class="hero-blob blob-3"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">
+        <span class="tag tag-green tag-live"><span class="tag-dot"></span>Sydney, Australia</span>
+        <span class="caption">Available online &middot; ongoing support</span>
+      </div>
+      <h1 class="display hero-name">
+        Wellness built for<br/>your <em>actual</em> life,<br/>not an imagined one.
+      </h1>
+      <p class="subhead hero-tagline">
+        I'm Nitish Ray — IT professional, full-time commuter, and someone who knows exactly what it feels like to get home exhausted with the best intentions and no energy left to act on them. Proactive Nitish is what I built because everything else was built for someone with a different life.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/61415586930" class="btn btn-dark btn-lg" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.532 5.865L.058 23.506a.5.5 0 00.612.641l5.701-1.493A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.693-.497-5.24-1.368l-.376-.217-3.89 1.018 1.033-3.782-.239-.389A9.946 9.946 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Start a conversation
+        </a>
+        <a href="#coaching" class="btn btn-outline btn-lg">See the approach</a>
+      </div>
+      <div class="hero-proof">
+        <span class="tag tag-green"><span class="tag-dot"></span>Ongoing &middot; not a short programme</span>
+        <span class="hero-proof-text">First conversation is <strong>complimentary.</strong> No pitch, no commitment.</span>
+      </div>
+    </div>
+    <div class="hero-card-wrap" aria-hidden="true">
+      <div class="day-card">
+        <div class="dc-head">
+          <div class="dc-icon">📋</div>
+          <div>
+            <div class="dc-label">A realistic working day</div>
+            <div class="dc-sub">What progress actually looks like</div>
+          </div>
+        </div>
+        <div class="dc-rows">
+          <div class="dc-row"><div class="dc-time">6:30 am</div><div class="dc-chip">Woke up tired. Drank water first.</div></div>
+          <div class="dc-row"><div class="dc-time">7:45 am</div><div class="dc-chip">Walked to the station instead of bussing.</div></div>
+          <div class="dc-row"><div class="dc-time">12:30 pm</div><div class="dc-chip chip-green">Actual lunch. Stepped outside for 10 min.</div></div>
+          <div class="dc-row"><div class="dc-time">6:30 pm</div><div class="dc-chip">Got home. Sat down. That's okay.</div></div>
+          <div class="dc-row"><div class="dc-time">9:30 pm</div><div class="dc-chip chip-blue">In bed by 10. One real win.</div></div>
+        </div>
+        <div class="dc-foot">This is sustainable progress — small, honest steps done consistently.</div>
+      </div>
+      <div class="float-pill fp-top">🇦🇺 Sydney-based</div>
+      <div class="float-pill fp-bottom">🌿 Trust-first · No hype</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section id="about" class="section section-border">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:16px">About Nitish</div>
+        <h2 class="heading" style="margin-bottom:24px">I'm not here to sell you a version of yourself you don't recognise.</h2>
+        <div class="about-text">
+          <p>I work full-time in IT in Sydney. Long days, a commute that uses up the energy you were saving for later, and evenings where the best version of your plan doesn't survive contact with a real week. That's not failure — that's just what it looks like when you're working.</p>
+          <p>I'm not a doctor, dietitian, or psychologist, and I'll never pretend otherwise. What I am is someone who has lived the gap between knowing what to do and actually finding the structure to do it — and built a system around that reality, not a hypothetical ideal.</p>
+          <p>Proactive Nitish exists because most wellness advice is built for people who already have their foundations in place. This is built for everyone else.</p>
+        </div>
+        <div class="value-list" style="margin-top:28px">
+          <div class="v-item">
+            <div class="v-icon">⚙️</div>
+            <div><span class="v-title">Systems over willpower</span><span class="v-desc">Built to survive low-energy days, not depend on motivation that shows up when it wants to.</span></div>
+          </div>
+          <div class="v-item">
+            <div class="v-icon">🎯</div>
+            <div><span class="v-title">One focus at a time</span><span class="v-desc">Changing ten things at once is how nothing changes. One honest starting point, done consistently, is how things shift.</span></div>
+          </div>
+          <div class="v-item">
+            <div class="v-icon">🤝</div>
+            <div><span class="v-title">Support that stays</span><span class="v-desc">Ongoing check-ins that adjust as your life changes. Not a programme with an end date.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right reveal reveal-d2">
+        <div class="pull-quote">
+          <div class="pq-mark">"</div>
+          <p class="pq-text">The advice that works is the kind that survives a bad week — not just a motivated Monday morning.</p>
+          <span class="pq-attr">— Nitish Ray</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-cell"><span class="stat-val">Sydney</span><span class="stat-lbl">Based in Australia</span></div>
+          <div class="stat-cell"><span class="stat-val">Online</span><span class="stat-lbl">Support anywhere</span></div>
+          <div class="stat-cell"><span class="stat-val">Ongoing</span><span class="stat-lbl">No end date</span></div>
+          <div class="stat-cell"><span class="stat-val">Yours</span><span class="stat-lbl">Built around you</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ REAL TALK ═══════════ -->
+<section id="honest" class="section section-border">
+  <div class="wrap">
+    <div class="honest-grid">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:16px">Real Talk</div>
+        <h2 class="heading" style="margin-bottom:16px">Things most wellness accounts won't say out loud.</h2>
+        <div class="honest-text">
+          <p>The wellness industry often sells to the best version of you. I'd rather talk to the version that got home tired and still managed to drink enough water today.</p>
+        </div>
+        <div class="truth-stack">
+          <div class="truth-item"><div class="truth-emoji">😴</div><div><span class="truth-title">Motivation is not a strategy.</span><span class="truth-desc">If your health plan only works when you feel like it, it's not a plan. It's a good intention. Systems outlast motivation every single time.</span></div></div>
+          <div class="truth-item"><div class="truth-emoji">📱</div><div><span class="truth-title">Sitting down after a long shift is not weakness.</span><span class="truth-desc">Low-energy evenings are a predictable feature of full-time work — not a character flaw. Building around them is smarter than fighting them.</span></div></div>
+          <div class="truth-item"><div class="truth-emoji">🔄</div><div><span class="truth-title">The guilt-reset cycle is almost universal.</span><span class="truth-desc">Start strong, drift, feel bad, wait for Monday to restart. The fix isn't more discipline — it's smaller systems with lower failure thresholds.</span></div></div>
+          <div class="truth-item"><div class="truth-emoji">🌱</div><div><span class="truth-title">Real progress doesn't look like transformation content.</span><span class="truth-desc">It looks like drinking water before coffee, walking one extra stop, getting to bed before midnight. Small, unglamorous, and completely real.</span></div></div>
+        </div>
+      </div>
+      <div class="honest-cards reveal reveal-d2">
+        <div class="honest-card card-accent">
+          <div class="hcard-label">What I'll always tell you</div>
+          <p class="hcard-text">"If this doesn't fit your actual schedule and your actual energy levels, it won't last. Let's find something that does — even if it's smaller than you expected."</p>
+        </div>
+        <div class="honest-card">
+          <div class="hcard-label">What I won't do</div>
+          <p class="hcard-text">"I won't promise a transformation. I won't manufacture urgency. I'll show up honestly, and help you build something that works for your life — not the highlight reel."</p>
+        </div>
+        <div class="honest-card">
+          <div class="hcard-label">On products and recommendations</div>
+          <p class="hcard-text">"I'm involved in wellness product distribution. That's always disclosed. If it ever becomes relevant, I'll tell you exactly what it is, what my connection is, and what it does and doesn't do."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ COACHING ═══════════ -->
+<section id="coaching" class="section section-border">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <div class="eyebrow">Proactive Nitish Coaching</div>
+      <h2 class="heading">General wellness education for people on a real schedule.</h2>
+      <p>Support across the areas that quietly drain busy working people — framed around your actual day, not a hypothetical one with three free hours in the morning.</p>
+    </div>
+    <div class="pillar-grid">
+      <div class="pillar reveal"><div class="pillar-icon">😴</div><div class="pillar-title">Sleep &amp; Recovery</div><p class="pillar-desc">Understanding what's disrupting your rest and building simple wind-down awareness without overhauling the evenings you need to decompress.</p></div>
+      <div class="pillar reveal reveal-d1"><div class="pillar-icon">🚶</div><div class="pillar-title">Daily Movement</div><p class="pillar-desc">Movement that works around a commute and long shifts — not a gym plan that demands motivation you don't have at 7pm.</p></div>
+      <div class="pillar reveal reveal-d2"><div class="pillar-icon">🥗</div><div class="pillar-title">Nutrition Awareness</div><p class="pillar-desc">Not calorie tracking or strict plans. Basic awareness of what fuels vs drains you — especially on days when you're rushing.</p></div>
+      <div class="pillar reveal reveal-d3"><div class="pillar-icon">⚡</div><div class="pillar-title">Energy Management</div><p class="pillar-desc">Why your energy moves the way it does across the day and week — and the small, specific levers that actually shift it.</p></div>
+      <div class="pillar reveal"><div class="pillar-icon">🧘</div><div class="pillar-title">Stress Awareness</div><p class="pillar-desc">Recognising your own signals before they compound. Simple, sustainable responses — not practices that require calm you don't have.</p></div>
+      <div class="pillar reveal reveal-d1"><div class="pillar-icon">💧</div><div class="pillar-title">Hydration Basics</div><p class="pillar-desc">Consistently the most overlooked lever for focus and mood — especially when you're commuting or running on coffee all day.</p></div>
+      <div class="pillar reveal reveal-d2"><div class="pillar-icon">🧠</div><div class="pillar-title">Mindset &amp; Habit Design</div><p class="pillar-desc">Moving from motivation-dependent action to repeatable, low-friction habits — designed to survive your worst weeks, not just your best.</p></div>
+      <div class="pillar reveal reveal-d3"><div class="pillar-icon">📋</div><div class="pillar-title">Ongoing Accountability</div><p class="pillar-desc">Support that continues for as long as it's useful. Not a programme with an end date — ongoing check-ins that adjust when your life does.</p></div>
+    </div>
+    <p class="coaching-note reveal">Proactive Nitish provides general wellness coaching, education, and habit support only. This is not medical advice, diagnosis, or treatment. Please consult your GP or a qualified healthcare professional for medical concerns.</p>
+  </div>
+</section>
+
+<!-- ═══════════ HOW IT WORKS ═══════════ -->
+<section id="how" class="section section-border">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <div class="eyebrow">How It Works</div>
+      <h2 class="heading">Simple, low-pressure, built around you.</h2>
+      <p>The first step is a real conversation — no forms, no commitment, no agenda beyond figuring out whether there's something genuinely useful here for you.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step reveal"><div class="step-num">01</div><div class="step-title">A Real Conversation</div><p class="step-desc">We talk about your actual schedule, what's working, what isn't, and what you'd genuinely like to feel different about. No script, no urgency.</p></div>
+      <div class="step reveal reveal-d1"><div class="step-num">02</div><div class="step-title">Honest Starting Point</div><p class="step-desc">A simple check-in across sleep, food, movement, energy, and stress — not to grade you, but to find where one small shift might actually land.</p></div>
+      <div class="step reveal reveal-d2"><div class="step-num">03</div><div class="step-title">One Realistic Focus</div><p class="step-desc">One area where a change is most likely to make a real difference. One — because one thing done consistently is worth ten things started and abandoned.</p></div>
+      <div class="step reveal reveal-d3"><div class="step-num">04</div><div class="step-title">Ongoing Support</div><p class="step-desc">Regular check-ins that continue as long as they're useful. We adjust when life changes — and keep going rather than stopping at an arbitrary milestone.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ LEADERSHIP ═══════════ -->
+<section id="leadership" class="section section-border">
+  <div class="wrap">
+    <div class="leadership-grid">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:16px">Leadership &amp; Community</div>
+        <h2 class="heading" style="margin-bottom:20px">People first. Always. Not as a tagline — as a practice.</h2>
+        <div class="leadership-text">
+          <p>Beyond coaching, I'm part of a community built around mentorship, personal growth, and the kind of self-leadership that actually shows up on hard days — not just inspired ones.</p>
+          <p>I'm also involved in wellness product distribution. That's always disclosed. If it ever becomes relevant to a conversation we're having, I'll tell you what it is, what I do, and what it genuinely does and doesn't offer. Transparency isn't negotiable — it's the starting point.</p>
+        </div>
+        <div class="transparency-bar">
+          Product conversations happen privately, one-on-one, and only when genuinely relevant. Public Proactive Nitish content focuses on education, habits, and honest conversation — never products.
+        </div>
+      </div>
+      <div class="principle-stack reveal reveal-d2">
+        <div class="principle"><div class="p-num">01</div><div><span class="p-title">Their interest before mine</span><span class="p-desc">If something doesn't genuinely make sense for the person in front of me, I don't recommend it — even when it's easier to say yes.</span></div></div>
+        <div class="principle"><div class="p-num">02</div><div><span class="p-title">Full disclosure, always</span><span class="p-desc">I'll be clear about what I do, what I'm connected to, and what any recommendation involves — every time, without being asked.</span></div></div>
+        <div class="principle"><div class="p-num">03</div><div><span class="p-title">Growth at your pace</span><span class="p-desc">No pressure to move fast, commit early, or fit a timeline that works for me but not for you.</span></div></div>
+        <div class="principle"><div class="p-num">04</div><div><span class="p-title">Community, not performance</span><span class="p-desc">The people around you should lift you up — not create pressure to look a certain way or hit arbitrary milestones.</span></div></div>
+        <div class="principle"><div class="p-num">05</div><div><span class="p-title">I lead by showing up</span><span class="p-desc">I can't ask consistency of anyone else if I'm not doing the work myself. That accountability starts with me — publicly and privately.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ WHO ═══════════ -->
+<section id="who" class="section section-border">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <div class="eyebrow">Who This Is For</div>
+      <h2 class="heading">If you see yourself here, a conversation is worth your time.</h2>
+    </div>
+    <div class="who-grid">
+      <div class="who-card reveal"><div class="who-icon">💼</div><div class="who-title">The full-time worker</div><p class="who-desc">Long shifts, a draining commute, a schedule that changes without warning. You know what you should do — finding space and structure to actually do it is the real challenge. That's precisely what we work with.</p></div>
+      <div class="who-card reveal reveal-d1"><div class="who-icon">🔄</div><div class="who-title">The inconsistent striver</div><p class="who-desc">You start well, then drift. You've tried routines that lasted two weeks. You need a system that accounts for off days — not one that assumes you'll be motivated on command. Off days are part of the design here.</p></div>
+      <div class="who-card reveal reveal-d2"><div class="who-icon">🌙</div><div class="who-title">The tired evenings person</div><p class="who-desc">By the time you're home, the ambitions from this morning have evaporated. You want to feel better without overhauling your life. Small, real changes that work around your energy levels — that's the entire approach.</p></div>
+      <div class="who-card reveal reveal-d3"><div class="who-icon">🌱</div><div class="who-title">The growth-minded professional</div><p class="who-desc">Open to accountability, community, and building something longer-term — but you want honesty, not hype. A real conversation about whether this is right for you before anything else. That's what you'll get.</p></div>
+    </div>
+    <p class="who-close reveal">You don't need to have it figured out. You just need to be honest about where you're starting from.</p>
+  </div>
+</section>
+
+<!-- ═══════════ BLOG PREVIEW ═══════════ -->
+<section id="blog-preview" class="section section-border">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <div class="eyebrow">Insights &amp; Reflections</div>
+      <h2 class="heading">Honest writing for working people.</h2>
+      <p>Short pieces on habit, consistency, wellness, and the gap between knowing and doing — from someone who lives it.</p>
+    </div>
+    <div class="blog-cards">
+      <a href="posts/why-busy-people-fail-at-wellness.html" class="blog-card reveal" style="text-decoration:none">
+        <div class="blog-thumb thumb-green">😴</div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-cat">Habit</span><span class="blog-date">May 2025</span><span class="blog-read-time">· 4 min</span></div>
+          <div class="blog-title">Why busy people fail at wellness (it's not what you think)</div>
+          <p class="blog-excerpt">It's not a discipline problem. It's a design problem. Your system only works when conditions are perfect — and conditions are almost never perfect mid-week.</p>
+          <span class="blog-link">Read more →</span>
+        </div>
+      </a>
+      <a href="posts/first-habit-when-exhausted.html" class="blog-card reveal reveal-d1" style="text-decoration:none">
+        <div class="blog-thumb thumb-blue">💧</div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-cat">Small Wins</span><span class="blog-date">Apr 2025</span><span class="blog-read-time">· 3 min</span></div>
+          <div class="blog-title">The first habit to build when you're exhausted</div>
+          <p class="blog-excerpt">Not the most impressive habit. Not the one that gets likes. The one that requires zero conditions to be right before you can do it.</p>
+          <span class="blog-link">Read more →</span>
+        </div>
+      </a>
+      <a href="posts/progress-not-performance.html" class="blog-card reveal reveal-d2" style="text-decoration:none">
+        <div class="blog-thumb thumb-amber">🔄</div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-cat">Mindset</span><span class="blog-date">Mar 2025</span><span class="blog-read-time">· 5 min</span></div>
+          <div class="blog-title">Progress, not performance — why the shift matters</div>
+          <p class="blog-excerpt">Start strong. Drift. Feel bad. Wait for Monday. Repeat. This pattern isn't a character flaw — it's a systems failure. Here's how to design around it.</p>
+          <span class="blog-link">Read more →</span>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:36px" class="reveal">
+      <a href="blog.html" class="btn btn-outline btn-lg">View all posts →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ BOOKS ═══════════ -->
+<section id="books" class="section section-border">
+  <div class="wrap">
+    <div class="books-intro reveal">
+      <div class="eyebrow" style="margin-bottom:14px">Books That Changed Me</div>
+      <h2 class="heading">These aren't recommendations. They're debts.</h2>
+      <p>These books shifted how I think about habits, energy, leadership, and self-discipline — not as concepts, but as lived practices. If any of them land for you, they're worth your time far more than another podcast episode.</p>
+    </div>
+    <div class="books-grid">
+      <div class="book-card reveal"><div class="book-spine bs-green">⚛️</div><div><div class="book-title">Atomic Habits</div><div class="book-author">James Clear</div><p class="book-lesson">Small changes compound. Identity shapes behaviour. The system you build matters more than the goal you set. Reframed everything about how I approach consistency.</p><span class="book-pill">On consistency</span></div></div>
+      <div class="book-card reveal reveal-d1"><div class="book-spine bs-blue">💪</div><div><div class="book-title">Can't Hurt Me</div><div class="book-author">David Goggins</div><p class="book-lesson">Not a comfort read — a confrontation. It showed me how much I was leaving in the tank and that discomfort is usually just the signal that the important thing is on the other side of it.</p><span class="book-pill">On mental toughness</span></div></div>
+      <div class="book-card reveal reveal-d2"><div class="book-spine bs-amber">🧠</div><div><div class="book-title">The Power of Now</div><div class="book-author">Eckhart Tolle</div><p class="book-lesson">Taught me to stop living in the anxiety of what's coming or the weight of what's passed. Presence is a practice — and a surprisingly practical one for a packed schedule.</p><span class="book-pill">On mindfulness</span></div></div>
+      <div class="book-card reveal"><div class="book-spine bs-purple">😴</div><div><div class="book-title">Why We Sleep</div><div class="book-author">Matthew Walker</div><p class="book-lesson">The science of sleep is more compelling — and more alarming — than most people realise. This book made me take sleep seriously in a way no advice ever had.</p><span class="book-pill">On recovery</span></div></div>
+      <div class="book-card reveal reveal-d1"><div class="book-spine bs-rose">🧭</div><div><div class="book-title">The 7 Habits of Highly Effective People</div><div class="book-author">Stephen R. Covey</div><p class="book-lesson">Not about productivity hacks — about character. The proactive principle alone changed how I approach every single day.</p><span class="book-pill">On self-leadership</span></div></div>
+      <div class="book-card reveal reveal-d2"><div class="book-spine bs-teal">🍃</div><div><div class="book-title">The Monk Who Sold His Ferrari</div><div class="book-author">Robin Sharma</div><p class="book-lesson">A reminder that success without wellbeing is just a well-decorated version of emptiness — a gentle push toward the life that actually matters.</p><span class="book-pill">On purpose</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ INSTAGRAM ═══════════ -->
+<section id="instagram" class="section section-border">
+  <div class="wrap">
+    <div class="instagram-grid">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:16px">Follow Along</div>
+        <h2 class="heading" style="margin-bottom:16px">The honest, unfiltered side of wellness.</h2>
+        <div class="instagram-text">
+          <p>On Instagram I share what I'm actually noticing — behavioral truths for busy people, small practical habits, relatable moments from a working life, and questions worth sitting with.</p>
+          <p>No transformation content. No 5am routines. No miracle claims. Just real observations about how wellness actually works when you're tired and your schedule doesn't care about your goals.</p>
+        </div>
+        <a href="https://instagram.com/proactivenitish" class="instagram-handle" target="_blank" rel="noopener">📸 @proactivenitish</a>
+      </div>
+      <div class="post-stack reveal reveal-d2">
+        <div class="post-card"><div class="post-type">Behavioral Truth</div><p class="post-text"><strong>Why your Sunday reset never makes it to Thursday.</strong> It's not discipline. It's that the system only works when conditions are perfect — and conditions are almost never perfect mid-week.</p></div>
+        <div class="post-card"><div class="post-type">Small Practical Thing</div><p class="post-text"><strong>The one habit that survived my busiest month:</strong> drinking water before I checked my phone every morning. Small enough that it always got done.</p></div>
+        <div class="post-card"><div class="post-type">Relatable Moment</div><p class="post-text">Got home at 7:30. Had planned to go for a walk. Made tea instead. <strong>Still a better evening than guilt-scrolling until midnight.</strong></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CTA ═══════════ -->
+<section class="section cta-section">
+  <div class="wrap">
+    <div class="cta-inner reveal">
+      <div class="eyebrow cta-eyebrow">Let's Talk</div>
+      <h2 class="cta-heading">If any of this feels like it was<br/>written <em>for you</em> — it probably was.</h2>
+      <p class="cta-sub">The first conversation is complimentary, unscripted, and genuinely about whether there's something useful here for you. No pitch. No pressure. Just an honest exchange to find out if we're a good fit.</p>
+      <div class="cta-btns">
+        <a href="https://wa.me/61415586930" class="btn btn-green btn-lg" target="_blank" rel="noopener">💬 WhatsApp Nitish</a>
+        <a href="mailto:proactivenitish@gmail.com" class="btn btn-ghost-dark btn-lg">✉️ Send an Email</a>
+      </div>
+      <p class="cta-note">Sydney-based · Available online · Ongoing support · No minimum commitment</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FAQ ═══════════ -->
+<section id="faq" class="section section-border">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <div class="eyebrow">FAQ</div>
+      <h2 class="heading">Honest answers to real questions.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-btn">Is this medical advice?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">No — and that's important to be clear about. Proactive Nitish provides general wellness coaching, habit education, and accountability support only. Nothing shared constitutes medical advice, diagnosis, treatment, or a substitute for professional healthcare. If you have a medical concern, please speak with your GP. That boundary matters and I hold it consistently.</div></div>
+      <div class="faq-item"><button class="faq-btn">Do I need to be healthy or have a routine already?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">No. The whole approach starts from where you actually are — not where you think you should be. The more inconsistent your history, the more useful a structured starting point tends to be. You don't need to earn the conversation.</div></div>
+      <div class="faq-item"><button class="faq-btn">How long does the support last?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">As long as it's useful. This isn't a 12-week programme with an end date — life changes, schedules shift, priorities move. The support adjusts with you. Some people check in for months. Others need a burst of structure and then occasional touchpoints. We figure it out together.</div></div>
+      <div class="faq-item"><button class="faq-btn">I'm not in Sydney — can we still work together?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">Absolutely. I'm based in Sydney, but everything happens via WhatsApp, messaging, or video — location genuinely isn't a barrier. If the conversation makes sense, geography doesn't stop it.</div></div>
+      <div class="faq-item"><button class="faq-btn">You mentioned products. What does that mean for me?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">I'm involved in wellness product distribution alongside coaching, and I'll always be transparent about that. Any product conversation happens privately, one-on-one, and only if genuinely relevant — not as a pitch, not as the reason for the conversation, and never without full disclosure of what it is and what I have to do with it.</div></div>
+      <div class="faq-item"><button class="faq-btn">What does the first conversation actually look like?<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">Relaxed and genuinely unscripted. We talk about your schedule, what you find hard, and what you'd like to feel different about. There's no pitch at the end. If there's a useful path forward, I'll say what that looks like. If there isn't, I'll say that too. The first conversation is complimentary — no conditions attached.</div></div>
+      <div class="faq-item"><button class="faq-btn">I'm interested in the community or partnership side.<div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div></button><div class="faq-answer">Start with a message. I'll be honest about what's involved — the community, what it looks like in practice, what it requires of you, and whether it makes sense given where you are right now. Nothing is decided in the first conversation. I'd rather you take time to think than rush into something that isn't right for you.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section id="contact" class="section section-border">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:16px">Get in Touch</div>
+        <h2 class="heading" style="margin-bottom:12px">Start with a message.<br/>No agenda required.</h2>
+        <div class="contact-intro">
+          <p>Whether you're curious about coaching, the community, or just want to ask a question — WhatsApp is the fastest and most direct route. I read every message and respond personally.</p>
+        </div>
+        <div class="contact-methods">
+          <a href="https://wa.me/61415586930" class="contact-method" target="_blank" rel="noopener"><div class="cm-icon">💬</div><div><div class="cm-main">WhatsApp</div><div class="cm-sub">+61 415 586 930 · Fastest response</div></div></a>
+          <a href="mailto:proactivenitish@gmail.com" class="contact-method"><div class="cm-icon">✉️</div><div><div class="cm-main">Email</div><div class="cm-sub">proactivenitish@gmail.com</div></div></a>
+          <a href="https://instagram.com/proactivenitish" class="contact-method" target="_blank" rel="noopener"><div class="cm-icon">📸</div><div><div class="cm-main">Instagram</div><div class="cm-sub">@proactivenitish · Content &amp; DMs</div></div></a>
+          <div class="contact-method" style="cursor:default;pointer-events:none"><div class="cm-icon">📍</div><div><div class="cm-main">Location</div><div class="cm-sub">Sydney, Australia · Online support available</div></div></div>
+        </div>
+      </div>
+      <div class="reveal reveal-d2">
+        <div class="form-box">
+          <h3>Send a message</h3>
+          <p class="form-desc">This goes directly to Nitish — not a form tool, not a VA. Fill in what feels relevant and I'll get back to you personally.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-fields">
+              <div class="form-group"><label for="f-name">Your name</label><input type="text" id="f-name" name="name" placeholder="First name is fine" autocomplete="given-name"/></div>
+              <div class="form-group"><label for="f-contact">How to reach you</label><input type="text" id="f-contact" name="contact" placeholder="Email or WhatsApp number"/></div>
+              <div class="form-group">
+                <label for="f-topic">What's on your mind?</label>
+                <select id="f-topic" name="topic">
+                  <option value="">Select a topic</option>
+                  <option>Wellness coaching or habits</option>
+                  <option>Accountability and ongoing support</option>
+                  <option>Community or partnership</option>
+                  <option>Just exploring — no specific agenda</option>
+                </select>
+              </div>
+              <div class="form-group"><label for="f-msg">Anything you'd like to share (optional)</label><textarea id="f-msg" name="message" placeholder="A little context helps me think about how to be most useful — no pressure though."></textarea></div>
+              <button type="submit" class="form-submit" id="f-submit">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.532 5.865L.058 23.506a.5.5 0 00.612.641l5.701-1.493A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.693-.497-5.24-1.368l-.376-.217-3.89 1.018 1.033-3.782-.239-.389A9.946 9.946 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                Open in WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer id="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">Nitish Ray · <span>Proactive Nitish</span></div>
+      <p class="footer-tagline">Wellness coaching for working people.<br/>Sydney-based. Available online worldwide.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigate</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#honest">Real Talk</a>
+        <a href="#how">How It Works</a>
+        <a href="#leadership">Leadership</a>
+        <a href="blog.html">Insights &amp; Blog</a>
+        <a href="#books">Books</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Connect</div>
+      <div class="footer-links">
+        <a href="https://wa.me/61415586930" target="_blank" rel="noopener">WhatsApp · +61 415 586 930</a>
+        <a href="mailto:proactivenitish@gmail.com">proactivenitish@gmail.com</a>
+        <a href="https://instagram.com/proactivenitish" target="_blank" rel="noopener">Instagram · @proactivenitish</a>
+        <a href="#contact">Send a message</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-disclaimer">Nitish Ray provides general wellness coaching, education, and accountability support only. Nothing on this website constitutes medical advice, diagnosis, treatment, or a substitute for care from a qualified GP or healthcare professional. General wellness information is not tailored to individual medical needs. Individual results vary. Always consult a qualified healthcare professional for medical concerns.</p>
+    <p class="footer-copy">© 2026 Nitish Ray</p>
+  </div>
+</footer>
+
+<script src="js/nav.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/faq.js" defer></script>
+<script src="js/form.js" defer></script>
+</body>
+</html>
